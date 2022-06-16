@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.box1{
+    height: 1079px;
+    background-image: url('img/bg01.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    border: 0px solid red;
+}
+
+.box1 > .wrap_1{
+    position: absolute;
+    display: block;
+    width: 1860px;
+    border: 0px solid red;
+}
+
+.box1 > .wrap_1 > .co01{
+    position: inherit;
+    top: 103px;
+    left: 439px;
+}
+
+.box1 > .wrap_1 > .co02{
+    position: inherit;
+    top: 326px;
+    left: 898px;
+}
+
+.box2{    
+    height: 850px;
+    border: 0px solid red;
+}
+
+.box2 > .wrap > .co03{
+    position: inherit;
+    top: 145px;
+    left: 184px;
+}
+
+.video_dim{
+    background-image: url('img/bg02.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    overflow: hidden;
+    height: 850px;
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    height: 800px;
+    background-image: url('img/bg03.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    border: 0px solid red;
+} 
+
+.box3 > .wrap > .co04{
+    position: inherit;
+    top: 286px;
+    left: 563px;
+}
+
+.box3 > .wrap > .co05{
+    position: inherit;
+    top: 165px;
+    left: 70px;
+}
+
+.box3 > .wrap > .b3p{
+    position: inherit;
+    top: 464px;
+    left: 563px;
+    
+        font-style: AppleSDGothicNeoR00;
+        font-weight: Regular;
+        font-size: 16px;
+        color: #ffffff;
+        letter-spacing: -0.03em;
+        line-height: 1.875;
+}
+
+.box4{    
+    height: 800px;  
+    border: 0px solid red;
+}
+
+.box4 > .wrap > .co06{
+    position: inherit;
+    top: 148px;
+    left: 63px;
+}
+
+.box4 > .wrap > .co07{
+    position: inherit;
+    top: 297px;
+    left: 759px;
+}
+
+.box4 > .wrap > .co11{
+    position: inherit;
+    top: 522px;
+    left: 322px;
+}
+
+.box4 > .wrap > .b4p{
+    position: inherit;
+    width: 520px;
+    top: 371px;
+    left: 218px;
+    
+        font-style: AppleSDGothicNeoSB00;
+        font-weight: Regular;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0em;
+        line-height: 1.8;
+        text-align: right;
+}
+
+.box5{    
+    height: 800px;
+    background-image: url('img/bg04.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px solid red;
+}
+
+.box5 > .wrap > .co08{
+    position: inherit;
+    top: 148px;
+    left: 50px;
+}
+
+.box5 > .wrap > .co09{
+    position: inherit;
+    top: 445px;
+    left: 438px;
+}
+
+.box5 > .wrap > .b5p{
+    position: inherit;
+    width: 601px;
+    top: 355px;
+    left: 437px;
+    
+        font-style: AppleSDGothicNeoSB00;
+        font-weight: Regular;
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: right;        
+}
+
+footer{
+    height: 102px;
+    background-color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align_ct{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    position: absolute;
+    display: block;
+    width: 1100px;
+    border: 0px solid red;
+}
